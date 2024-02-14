@@ -25,4 +25,12 @@ Last modification: 13/02/2024
 int sudoku[rowsN][columnsN];
 int ok;
 
+// function to check if the numbers in a row are complete
+int rowsChecker() {
+}
+
+// function to check if the numbers in a column are complete
+int columnsChecker() {
+}
+
 int main() {}
