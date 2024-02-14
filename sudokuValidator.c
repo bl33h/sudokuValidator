@@ -17,19 +17,20 @@ Last modification: 13/02/2024
 #include <sys/mman.h>
 #include <sys/syscall.h>
 
-// variables for the sudoku grid
+// macros for the sudoku grid dimensions
 #define threadsN 9
 #define rowsN 9
 #define columnsN 9
 
+// bidimensional array to store the sudoku grid
 int sudoku[rowsN][columnsN];
 int ok;
 
-// function to check if the numbers in a row are complete
+// function to check if the numbers in a row are complete and unique (not duplicated)
 int rowsChecker() {
 }
 
-// function to check if the numbers in a column are complete
+// function to validate each column of the sudoku grid using threads
 int columnsChecker() {
 }
 
