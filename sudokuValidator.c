@@ -21,3 +21,8 @@ Last modification: 13/02/2024
 #define threadsN 9
 #define rowsN 9
 #define colsN 9
+
+int sudoku[rowsN][colsN];
+int ok;
+
+int main() {}
